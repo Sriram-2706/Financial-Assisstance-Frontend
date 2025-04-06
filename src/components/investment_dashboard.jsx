@@ -107,7 +107,7 @@ export function InvestmentDashboard() {
     setError(null);
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8080/investment-plan", // ✅ Port remains 8080
+        "https://financial-assisstance-backend.onrender.com/investment-plan", // ✅ Port remains 8080
         formData,
         {
           headers: { "Content-Type": "application/json" },
