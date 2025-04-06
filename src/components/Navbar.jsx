@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-export function Navbar() {
+function Navbar() {
   useEffect(() => {
     const style = document.createElement("style");
     style.innerHTML = `
       .navbar {
-        background-color: #1e293b; /* slate-800 */
+        background-color: #1e293b;
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
@@ -30,7 +30,7 @@ export function Navbar() {
       }
 
       .navbar a:hover {
-        color: #38bdf8; /* sky-400 */
+        color: #38bdf8;
       }
     `;
     document.head.appendChild(style);
