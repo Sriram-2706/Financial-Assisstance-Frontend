@@ -67,7 +67,7 @@ async function getBotResponse(query) {
   const req_body = { userQuery: query };
 
   try {
-    const response = await fetch("http://127.0.0.1:8080/datastore", {
+    const response = await fetch("https://financial-assisstance-backend.onrender.com/datastore", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Specify the data format
