@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import {Home} from './components/home';
 import {Chatbot} from './components/Chatbot';
-import {Navbar} from './components/Navbar';
+import {Navbar} from "./components/Navbar.jsx";
 import {InvestmentDashboard} from './components/investment_dashboard'
 import {Header} from "./components/header"
 
